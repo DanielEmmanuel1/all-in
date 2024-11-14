@@ -8,7 +8,7 @@ import Brand6 from "../../public/assets/brand6.png";
 
 const Brand = () => {
     return ( 
-        <div>
+        <div className="pb-14">
             <p className="text-center pt-14 pb-8">BRANDS WE HAVE WORKED WITH</p>
             <div className="grid grid-cols-3 gap-3">
                 <Image src={Brand1} alt="" width={100} height={100}/>
